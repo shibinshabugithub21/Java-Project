@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyJob">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply Job"
+        android:textColor="@color/colorBlack"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <EditText
+        android:id="@+id/ProfileName"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="NAME"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <EditText
+        android:id="@+id/ProfileMobile"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="MOBILE"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileName" />
+
+
+    <EditText
+        android:id="@+id/ProfileAdhaar"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="QUALIFICATION"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileMobile" />
+
+
+    <EditText
+        android:id="@+id/ProfileBlood"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="JOB NAME"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileAdhaar" />
+
+
+    <EditText
+        android:id="@+id/ProfileGender"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="GENDER"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileBlood" />
+
+    <EditText
+        android:id="@+id/ProfilePlace"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="PLACE"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileGender" />
+
+    <EditText
+        android:id="@+id/ProfileState"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="STATE"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfilePlace" />
+
+    <EditText
+        android:id="@+id/ProfileAddress"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bgm"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="ADDRESS"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileState" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_marginTop="600dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="35dp"
+            android:text="SAVE"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/views"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn"
+            android:text="view"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

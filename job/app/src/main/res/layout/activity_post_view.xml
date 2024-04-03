@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PostView">
+
+
+    <Button
+        android:id="@+id/AddJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:text="ADD JOB"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/AddJob"
+        android:id="@+id/viewDetail"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="VIEW"
+        android:textStyle="bold"
+        android:textSize="35dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/viewDetail"
+        android:id="@+id/viewApply"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="APPLY JOB VIEW"
+        android:textStyle="bold"
+        android:textSize="35dp"/>
+
+
+</RelativeLayout>
